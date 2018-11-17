@@ -1,0 +1,247 @@
+body {
+   background: url(http://www.webtechelp.net/wp-content/uploads/2014/05/Blue-Pattern.jpg);
+}
+
+p {
+   width: auto;
+   height: 75px;
+   color: red;
+   font-size: 35px;
+   text-align: center;
+}
+
+a {
+   color: pink;
+}
+
+a:hover {
+	color: red;
+}
+
+.hi {	
+	text-align: center;
+	align-items: center;
+	justify-items: center;
+	color: red;
+	background-color: green; 
+	font-family: Sans-serif;
+	font-size: 35px;
+	padding: 10px;
+   margin: -10px;
+}
+
+.list_one {
+   text-align: center;
+   width: auto;
+   padding: 10px;
+	color: yellow;
+	font-size: 28px;
+   margin: 15px;
+}
+
+.list_one_items {
+   position: relative;
+   text-align: center;
+   width: 100px;
+	background-color: #42f4e5;
+	padding: 20px;
+	margin: auto;
+	opacity: 0.7;
+	}
+
+.list_one_items:hover {
+	transform: scale(1.4);
+}
+
+.sticky_one_container {
+   position: sticky;
+   top: 0;
+   margin: 20px;
+}
+
+.sticky_one_center {
+   position: absolute;
+   top: 2px;
+   width: 100%;
+   color: black;
+   font-size: 12px;
+   text-align: center;
+}
+
+.sticky_one_background {
+   background-color: silver;
+   height: 18px;
+   width: 100%;
+}
+
+.sticky_two_container {
+   position: sticky;
+   top: 18;
+   margin: 20px;
+}
+
+.sticky_two_center {
+   position: absolute;
+   top: 2px;
+   width: 100%;
+   color: black;
+   font-size: 12px;
+   text-align: center;
+}
+
+.sticky_two_background {
+   background-color: silver;
+   height: 18px;
+   width: 100%;
+}
+
+.list_two {
+   text-align: center;
+   width: auto;
+   padding: 10px;
+	color: yellow;
+	font-size: 45px;
+   margin: 15px;
+	}
+
+.list_two_items {
+   text-align: center;
+	font-size: 35px;
+	color: #42f4e5;
+   margin: auto;
+   width: 180px;
+   height: 120px;
+}
+
+.waterfalls {
+   width: 400px;	
+   height: 400px;
+   border-color: blue;
+   border-style: solid;
+   border-width: 3px;
+   margin: auto;
+   padding: 20px;
+   border-radius: 15px;
+   background-color: red;
+}
+
+* {
+   box-sizing: border-box;
+}
+
+.row_one {
+   width: 810px;
+   margin: auto;
+}
+
+.row_two {
+   width: 810px;
+   margin: auto;
+}
+
+.row_three {
+   position: relative;
+   width: 810px;
+   margin: auto;
+}
+
+.clearfix::after {
+   content: "";
+   clear: both;
+   display: table;
+}
+
+.round_photo {
+   width: 400px;
+   height: 400px;
+   margin: 40px 33vw 50px 33vw;
+   border-color: green;
+   border-width: 10px;
+   border-style: solid;
+   border-radius: 50%;
+   transform: scale(1.2);
+}
+
+
+.repeating_gradient {
+   border-radius: 20%;
+   width: 70%;
+   height: 400px;
+   margin:  50 auto;
+   background: repeating-linear-gradient(
+      45deg,
+      blue 20px,
+      green 40px,
+      red 60px);
+}
+
+.moon {
+   /*[>shows up in beehive geyser, which is intentional<]*/
+   position: absolute;
+   top: 40px;
+   right: 70px;
+   height: 36px;
+   width: 36px;
+   border-radius: 50%;
+   background-color: transparent;
+   box-shadow: 4px 5px;
+   color: #f5ffa3;
+   transform: rotate(100deg);
+   opacity: .9;
+}
+
+.heart {
+  position: relative;
+  margin: 110 auto;
+  background-color: red;
+  height: 200px;
+  width: 200px;
+  transform: rotate(-45deg);
+}
+
+.heart::after {
+  background-color: red;
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 0px;
+  left: 100px;
+}
+
+.heart::before {
+  content: "";
+  background-color: red; 
+  border-radius: 50%;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: -100px;
+  left: 0px;
+}
+
+.cone {
+   margin: auto;
+   top: 200px;
+   right: 0px;
+   bottom: 0px;
+   left: 600px;
+   background-color: green;
+   height: 100px;
+   width: 100px;
+   transform: rotate(45deg);
+}
+
+.cone::after {
+   content: "";
+   background-color: yellow;
+   opacity: .5;
+   position: absolute;
+   height: 100px;
+   width: 100px;
+   transform: rotate(45deg);
+
+}
+
+	
