@@ -33,7 +33,7 @@ int main()
         {
             printf("#");
         }
-    printf(" ");
+    printf("  ");
         for (int k = 1; k < t; k++)
         {
             printf("#");
